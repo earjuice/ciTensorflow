@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{4A2BB8F3-ADDF-452B-BCE8-F707EAFB3990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui">
+      <UniqueIdentifier>{8C6CA674-B43D-4AA0-A9CE-88F78D27117B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\include">
+      <UniqueIdentifier>{0323F3B0-8988-4FA2-9A3C-CD1AE72B1B7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\lib">
+      <UniqueIdentifier>{7018DD81-5581-4A7E-B0C4-513556CCEB38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\lib\imgui">
+      <UniqueIdentifier>{856D4EE0-5C1C-4C9E-8E26-AD09B3691106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\src">
+      <UniqueIdentifier>{8E053831-9D55-4CD2-92F9-DF11BA905D6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI">
+      <UniqueIdentifier>{974FC54B-ABF1-4866-B446-D57EF0EC037C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI\include">
+      <UniqueIdentifier>{3E99ED4A-923D-4D48-A029-B2D13A8989EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI\src">
+      <UniqueIdentifier>{874EA40A-6D91-45A9-8AC9-A4C48EFB22A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI\NewTek NDI 3.5 SDK">
+      <UniqueIdentifier>{032D7AF9-F739-4E3C-8D85-4425C1C8E7F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include">
+      <UniqueIdentifier>{C29C429C-DFB3-4703-98B7-6DA32425055B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV3">
+      <UniqueIdentifier>{3CCB4E0F-759C-4E60-8868-63EF217B7BC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV3\include">
+      <UniqueIdentifier>{E647B3A3-9D64-4E2F-B0DD-2785EC3816A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ciTensorflow">
+      <UniqueIdentifier>{11a9e7e1-812e-4ffe-8e97-ab584a03d1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ciTensorflow\src">
+      <UniqueIdentifier>{eb593b4b-2f05-4f66-a34e-aa839b69ae53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ciTensorflow\include">
+      <UniqueIdentifier>{2ea1b292-4fe1-4a66-902f-1c54f602e7fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ciTensorflowApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ciTensorflowApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\CinderImGui.h">
+      <Filter>Blocks\ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imconfig.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_internal.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\src\CinderImGui.cpp">
+      <Filter>Blocks\ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_draw.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\include\CinderNDIaudioSender.h">
+      <Filter>Blocks\Cinder-NDI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\include\CinderNDIReceiver.h">
+      <Filter>Blocks\Cinder-NDI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\include\CinderNDISender.h">
+      <Filter>Blocks\Cinder-NDI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-NDI\src\CinderNDIaudioSender.cpp">
+      <Filter>Blocks\Cinder-NDI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-NDI\src\CinderNDIReceiver.cpp">
+      <Filter>Blocks\Cinder-NDI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-NDI\src\CinderNDISender.cpp">
+      <Filter>Blocks\Cinder-NDI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.compat.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.deprecated.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.DynamicLoad.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.Find.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.Lib.cplusplus.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.Lib.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.Recv.ex.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.Recv.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.Routing.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.Send.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.structs.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include\Processing.NDI.utilities.h">
+      <Filter>Blocks\Cinder-NDI\NewTek NDI 3.5 SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-OpenCV3\include\CinderOpenCV.h">
+      <Filter>Blocks\OpenCV3\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\tf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
